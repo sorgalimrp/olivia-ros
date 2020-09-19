@@ -1,0 +1,24 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    /* inicio: imagen de fondo en el contenedor */
+    background-image: url('../img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    /* ocupa todo el espacio del contenedor */
+    background-size: cover;
+    /* muestra de izquierda a derecha */
+    background-position: left;
+    /* fin: imagen de fondo en el contenedor */
+    padding-bottom: 10rem;
+}
+/* bajar el redondo */
+.carousel-indicators {
+    top: 50px;
+}
+/* colocar redondo */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
